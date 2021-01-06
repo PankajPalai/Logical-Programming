@@ -1,0 +1,26 @@
+/* write a program to find sum of all digits in a 4 digit number*/
+package com.nt.pk.np;
+import java.util.Scanner;
+class SumOfDigits{
+	public static void add(int num){
+		System.out.println("the number is: " +num);
+
+		int sum=0;
+		int rem=0;
+		while(num>0){
+			rem=num%10;//4762 =2
+			num=num/10;//476
+			sum=sum+rem;//2
+		}
+		System.out.println("sum of the digits are: "+sum);
+
+
+	}
+
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter a number: ");//4762
+		add(sc.nextInt());
+		System.out.println(1/10);
+	}
+}

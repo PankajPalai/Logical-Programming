@@ -1,0 +1,29 @@
+package com.nt.pk.np;
+
+
+import java.util.Scanner;
+class CountDigits {
+
+	public static void countDigit(int num){
+		int count=0;
+		while(num>0){
+			num=num/10;	//3654/10=365,36,3,0
+			count++;//1,2,3,4
+		}
+		System.out.println("number of digits :"+count);
+	}
+
+
+
+	public static void main(String[] args) {
+		byte b1=40;
+		Byte b01=10;
+		//Byte bo1=Byte.valueOf(128);
+		int i1=10;
+		byte b2=i1;
+		byte b3s=(byte)i1;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter a number :");//3654
+		countDigit(sc.nextInt());
+	}
+}
