@@ -11,10 +11,36 @@ public class Test04_PrimeNumber {
 	public static void main(String[] args) {
 
 		System.out.println(checkPrime(2));
-		printPrime(1, 1000);
+		printPrime(1,15);
+
+	}
+	
+	
+	private static void printPrime(int startRange, int endRange) {
+		int num=0;
+		for(int i=startRange;i<=endRange;i++) {
+			num=i;
+			int count=0;
+			for(int j=1;j<=num;j++) {
+				
+				if(num%j==0) {
+					count++;
+				}
+				
+				
+			}
+			
+			if(count==2) {
+			
+				System.out.println(i);
+			}
+			//System.out.println("total prime numbers between"+startRange+ " and "+endRange + "is "+count);
+		}
 
 	}
 
+
+/*
 	private static void printPrime(int num1, int num2) {
 		int count = 0;
 		for (int i = num1; i <= num2; i++) {
@@ -27,6 +53,8 @@ public class Test04_PrimeNumber {
 		System.out.println("count :" + count);
 
 	}
+	
+	*/
 
 	private static boolean checkPrime(int num) {
 		int count = 0;
