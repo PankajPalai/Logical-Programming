@@ -53,6 +53,8 @@ public class Test07_PalindromeNumber {
 		}
 		return false;
 	}
+	
+	//we can use the first method to print  the nubmers easily
 
 	}
 
