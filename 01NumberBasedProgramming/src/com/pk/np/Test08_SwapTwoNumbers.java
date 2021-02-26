@@ -1,24 +1,42 @@
 package com.pk.np;
 
 /*
- * .swap two num with and without using third variables
+ * .swap two num with and without using third variables with various logics
  */
 public class Test08_SwapTwoNumbers {
 
 	public static void main(String[] args) {
 		
 	//	swapW(5,6);
-		swapWO(10,20);
+		swapWO(1000,1500);
 		
 
 
 	}
 	
 	//swap without third variable
-private static void swapWO(int num1, int num2) {//10,20
+private static void swapWO(int num1, int num2) {//20,10
 	System.out.println("before swapping : num1 ="+num1+ " and num2 ="+num2);
-	num1=num2;
-	num2=num1;
+	/*
+	 * Logic 1
+	 * num1=num1+num2;//30
+	num2=num1-num2;//10
+	num1=num1-num2;
+	*/
+	/*
+	 * logic 2
+	 
+	num1=num1*num2;//200
+	num2=num1/num2;//20
+	num1=num1/num2;//10
+	
+	*/
+	num1=num1^num2;
+	num2=num1^num2;
+	num1=num1^num2;
+	
+	
+	
 	
 	
 	
