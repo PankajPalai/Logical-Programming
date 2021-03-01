@@ -15,9 +15,9 @@ public class Test03LeftriangleStarPattern {
 			//and k for printing *
 			// row denotes the number of rows you want to print
 			// Outer loop work for rows
-			for (int i = 0; i <= 6; i++) {
+			for (int i = 0; i <= 4; i++) {
 				// inner loop work for space
-				for (int j = 6; j >= i; j--)
+				for (int j = 4; j >= i; j--)
 
 				{
 					// prints space between two stars
