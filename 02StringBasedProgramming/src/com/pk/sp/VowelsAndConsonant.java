@@ -4,7 +4,7 @@ package com.pk.sp;
 by using our own method to find the solution of the program.
  */
 
-public class Test02_VowelsAndConsonant {
+public class VowelsAndConsonant {
 
 	public static void main(String[] args) {
 		countVowsAndCons("pAnkAj palai");

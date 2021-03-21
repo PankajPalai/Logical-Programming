@@ -4,7 +4,7 @@ package com.pk.sp;
 by using our own method to find the solution of the program.
 */
 
-public class Test01_CountCharacters {
+public class CountCharacters {
 
 	public static void main(String[] args) {
 		countChar1("pankaj");
