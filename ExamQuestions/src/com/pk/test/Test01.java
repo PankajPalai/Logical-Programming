@@ -1,4 +1,4 @@
-package com.pk.star;
+package com.pk.test;
 //the application given in synoriq interview
 public class Test01 {
 
